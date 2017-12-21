@@ -1,0 +1,44 @@
+<html>
+<!-- explain the stuff u need to explain
+-->
+
+<head>
+<link rel="stylesheet" type="text/css" href="Assignment8.css"/>
+<title>Assignment 8</title>
+</head>
+
+<body>
+
+<form method="POST" action="Assignment8.py">
+
+	<p>Which state would you like to see?</p>
+	<select name="state">
+		<option value="TX">TX</option>
+		<option value="NY">NY</option>
+		<option value="MA">MA</option>
+	</select>
+	
+	<p>What would you like to sort by?</p>
+	<select name="sort">
+		<option value="_id">Zip Code</option>
+		<option value="city">City</option>
+		<option value="pop">Population</option>
+	</select>
+	
+	<p>How many records would you like to see?</p>
+	<select name="quantity">
+		<option value="5">5</option>
+		<option value="10">10</option>
+		<option value="15">15</option>
+		<option value="20">20</option>
+	</select>
+	
+	<hr/>
+	
+	<input type="submit" value="Submit">
+	<input type="reset" value="Cancel">
+	
+</form>
+
+</body>
+</html>
