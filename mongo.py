@@ -7,7 +7,7 @@ import codecs
 sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
 import pymongo
 
-client = pymongo.MongoClient('mongodb://mp4060:MB9iupuE@class-mongodb.cims.nyu.edu/mp4060')
+client = pymongo.MongoClient('mongodb://mp4060:********@class-mongodb.cims.nyu.edu/mp4060')
 
 form = cgi.FieldStorage()
 
@@ -24,7 +24,7 @@ print('''
     <head>
         <meta charset="utf-8" />
         <title>PyMongo Program</title>
-        <link rel="stylesheet" type="text/css" href="Assignment8.css" />
+        <link rel="stylesheet" type="text/css" href="mongo.css" />
     </head>
     <body>
         <div class="container">
